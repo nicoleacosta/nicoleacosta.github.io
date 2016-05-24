@@ -1,0 +1,117 @@
+/*Table of Contents
+-------------------------------------------------------------------------------
+  -General
+  -Header
+  -Main Content
+  -Footer
+-------------------------------------------------------------------------------
+*/
+
+
+/*General--------------------------------------------------------------------*/
+.main{padding-top: 3%;}
+.row{padding: 2% 0;}
+.orange{background-color:  rgba(191, 87, 0, 1);} /*a is the fourth dimension that sets opacity*/
+.content h2{font-size: 3rem;} /*This overrides the rule skeleton had set for h2*/
+
+/*Header---------------------------------------------------------------------*/
+header.main_nav{
+    padding: 1% 0;
+    display: block;
+
+}
+.logo{
+  text-align: center;
+  opacity: .8%;
+  font-family: Lobster;
+  font-size: 5em;
+  line-height: 80%; /*how we got UT closer to EC*/
+  color: white; /*stuck between white and black. both look nice. will probably depend on body text*/
+}
+.ut{
+  font-size: 3.60rem;
+  font-family: Times;
+  margin-top: none;
+}
+
+.ut a{
+  text-decoration: none;
+  color: white;
+}
+
+.ut a:hover{
+  color: black;
+}
+
+#logo-description{
+  margin-bottom: 0;
+}
+
+
+#nav{
+  font-size: 2rem;
+  color: white;
+  font-family: Times;
+  text-align: center;
+  padding-bottom: 0;
+  padding-top: 1%;
+  border-top: 2px solid white;
+}
+
+.menu > ul {
+  margin-bottom: 0;
+}
+
+.menu > ul > li{
+  display: inline;
+  padding: 0 10%;
+}
+
+.menu > ul > li:first-child{
+  border-right: 1px solid white;
+}
+
+.menu > ul > li:last-child{
+  border-left: 1px solid white;
+}
+
+.menu > ul > li > a{
+  text-decoration: none;
+  color: white;
+}
+
+.menu > ul > li > a:hover{
+  color: black;
+}
+
+
+/*Main Content---------------------------------------------------------------*/
+body{background-color: #fff;}
+
+h3{
+  border-bottom: 2px solid rgba(191, 87, 0, .7);
+  font-family: Times;
+}
+
+#about{
+  margin-top: 3%;
+}
+
+.right{
+  text-align: right;
+}
+
+
+/*Footer---------------------------------------------------------------------*/
+.copyright{
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 3%;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+  color: white;
+}
+
+footer{
+  background-color: rgba(191, 87, 0, 1);
+}

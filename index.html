@@ -1,23 +1,115 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="home">
+<head>
 
-  <h1 class="page-heading">Posts</h1>
+	<!--Basic Page Needs-->
+	<meta charset="utf-8">
+  <title>Nicole Acosta</title>
+  <meta name="description" content="Acosta home page.">
+  <meta name="author" content="Nicole Acosta">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	<!--css links-->
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/skeleton.css">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+	<!-- Mobile Specific Metas-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	<!--Font-->
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
+
+</head>
+
+
+<body>
+<!-- Header-->
+	<header class="main_nav orange">
+	  <div class="container">
+	      <div class="twelve columns">
+	          <div class="logo">
+	              <p id="logo-description">English Council <br> <span class="ut"><a href="http://www.utexas.edu/" target="_blank">University of Texas</a></span></p>
+	          </div>
+				</div>
+	  </div>
+		<div class="container">
+				<div class="row" id="nav">
+					<div class="menu">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Members</a></li>
+							<li><a href="#">Events</a></li>
+						</ul>
+					</div>
+				</div>
+		</div>
+	</header>
+	<!-- Header Ends-->
+
+<!--Main content begins-->
+<div class="container">
+		<div class="row">
+				<div class="seven columns u-pull-left">
+						<h3 id="about">About</h3>
+						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+								ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								Duis aute irure dolor in reprehenderit in voluptate velit
+								esse cillum dolore eu fugiat nulla pariatur. Excepteur
+								sint occaecat cupidatat non proident, sunt in culpa qui
+								officia deserunt mollit anim id est laborum."</p>
+				</div>
+		</div>
+		<div class="row">
+				<div class="seven columns u-pull-right">
+						<h3 class="right">T-Shirt Contest</h3>
+						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+								ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								Duis aute irure dolor in reprehenderit in voluptate velit
+								esse cillum dolore eu fugiat nulla pariatur. Excepteur
+								sint occaecat cupidatat non proident, sunt in culpa qui
+								officia deserunt mollit anim id est laborum."</p>
+				</div>
+		</div>
+		<div class="row">
+				<div class="seven columns u-pull-left">
+						<h3>Survey</h3>
+						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+								ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								Duis aute irure dolor in reprehenderit in voluptate velit
+								esse cillum dolore eu fugiat nulla pariatur. Excepteur
+								sint occaecat cupidatat non proident, sunt in culpa qui
+								officia deserunt mollit anim id est laborum."</p>
+				</div>
+		</div>
+		<div class="row">
+				<div class="seven columns u-pull-right">
+						<h3 class="right">Join!</h3>
+						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+								ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								Duis aute irure dolor in reprehenderit in voluptate velit
+								esse cillum dolore eu fugiat nulla pariatur. Excepteur
+								sint occaecat cupidatat non proident, sunt in culpa qui
+								officia deserunt mollit anim id est laborum."</p>
+				</div>
+		</div>
 </div>
+<!--Main content ends-->
+
+<!--Footer begins-->
+<footer>
+	<p class="copyright">&copy; 2016 Nicole Acosta. All Rights Reserved.</p>
+</footer>
+<!--Footer ends-->
+
+</body>
+</html>

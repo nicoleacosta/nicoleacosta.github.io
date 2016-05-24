@@ -11,7 +11,7 @@
 /*General--------------------------------------------------------------------*/
 .main{padding-top: 3%;}
 .row{padding: 2% 0;}
-.orange{background-color:  rgba(191, 87, 0, 1);} /*a is the fourth dimension that sets opacity*/
+.blue{background-color:  rgba(51, 102, 153, 1) ;} /*a is the fourth dimension that sets opacity*/
 .content h2{font-size: 3rem;} /*This overrides the rule skeleton had set for h2*/
 
 /*Header---------------------------------------------------------------------*/
@@ -89,7 +89,7 @@ header.main_nav{
 body{background-color: #fff;}
 
 h3{
-  border-bottom: 2px solid rgba(191, 87, 0, .7);
+  border-bottom: 2px solid  rgba(51, 102, 153, .7);
   font-family: Times;
 }
 
@@ -113,5 +113,5 @@ h3{
 }
 
 footer{
-  background-color: rgba(191, 87, 0, 1);
+  background-color:  rgba(51, 102, 153, 1);
 }

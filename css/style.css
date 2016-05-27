@@ -11,51 +11,35 @@
 /*General--------------------------------------------------------------------*/
 .main{padding-top: 3%;}
 .row{padding: 2% 0;}
-.blue{background-color:  rgba(51, 102, 153, 1) ;} /*a is the fourth dimension that sets opacity*/
+.blue{background-color:  rgba(51, 102, 153, .75) ;} /*a is the fourth dimension that sets opacity*/
 .content h2{font-size: 3rem;} /*This overrides the rule skeleton had set for h2*/
 
 /*Header---------------------------------------------------------------------*/
 header.main_nav{
     padding: 1% 0;
     display: block;
-
 }
+
 .logo{
   text-align: center;
   opacity: .8%;
-  font-family: Lobster;
-  font-size: 5em;
-  line-height: 80%; /*how we got UT closer to EC*/
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+  line-height: 100%; /*how we got UT closer to EC*/
   color: white; /*stuck between white and black. both look nice. will probably depend on body text*/
-}
-.ut{
-  font-size: 3.60rem;
-  font-family: Times;
-  margin-top: none;
-}
-
-.ut a{
-  text-decoration: none;
-  color: white;
-}
-
-.ut a:hover{
-  color: black;
 }
 
 #logo-description{
   margin-bottom: 0;
 }
 
-
 #nav{
-  font-size: 2rem;
-  color: white;
-  font-family: Times;
+  font-size: 2.25rem;
+  color: black;
+  font-family: 'Open Sans';
   text-align: center;
-  padding-bottom: 0;
-  padding-top: 1%;
-  border-top: 2px solid white;
+  padding-bottom: 1%;
+  padding-top: 3%;
 }
 
 .menu > ul {
@@ -68,29 +52,32 @@ header.main_nav{
 }
 
 .menu > ul > li:first-child{
-  border-right: 1px solid white;
+  border-right: 1px solid black;
 }
 
 .menu > ul > li:last-child{
-  border-left: 1px solid white;
+  border-left: 1px solid black;
 }
 
 .menu > ul > li > a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .menu > ul > li > a:hover{
-  color: black;
+  color: gray;
 }
 
 
 /*Main Content---------------------------------------------------------------*/
 body{background-color: #fff;}
 
+#font{
+  font-family: 'Open Sans'
+}
+
 h3{
-  border-bottom: 2px solid  rgba(51, 102, 153, .7);
-  font-family: Times;
+  border-bottom: 3px solid  rgba(51, 102, 153, .7);
 }
 
 #about{
@@ -113,5 +100,5 @@ h3{
 }
 
 footer{
-  background-color:  rgba(51, 102, 153, 1);
+  background-color:  rgba(51, 102, 153, .75);
 }

@@ -8,18 +8,22 @@
 */
 
 
-/*General--------------------------------------------------------------------*/
+/*General-----------------------------------------------------------------------*/
 .main{padding-top: 3%;}
 .row{padding: 2% 0;}
 .blue{background-color:  rgba(51, 102, 153, .75) ;} /*a is the fourth dimension that sets opacity*/
 .content h2{font-size: 3rem;} /*This overrides the rule skeleton had set for h2*/
 
-/*Header---------------------------------------------------------------------*/
+/*Header------------------------------------------------------------------------*/
+
+/*The blue container my logo is in*/
 header.main_nav{
     padding: 1% 0;
     display: block;
 }
 
+/*All below is for the navigation bar---------------*/
+/*Logo is my Name*/
 .logo{
   text-align: center;
   opacity: .8%;
@@ -68,16 +72,23 @@ header.main_nav{
   color: gray;
 }
 
-
-/*Main Content---------------------------------------------------------------*/
-body{background-color: #fff;}
-
-#font{
-  font-family: 'Open Sans'
+.active{
+  font-weight: bold;
 }
+
+/*End navigation bar-----------------------------*/
+
+
+/*Main Content------------------------------------------------------------------*/
+body{background-color: rgba(216, 230, 243, .4);}
 
 h3{
   border-bottom: 3px solid  rgba(51, 102, 153, .7);
+}
+
+#font{
+  font-family: 'Open Sans'
+  font-size: 2rem;
 }
 
 #about{
@@ -89,7 +100,7 @@ h3{
 }
 
 
-/*Footer---------------------------------------------------------------------*/
+/*Footer------------------------------------------------------------------------*/
 .copyright{
   text-align: center;
   margin-bottom: 0;

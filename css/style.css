@@ -72,15 +72,15 @@ header.main_nav{
   color: gray;
 }
 
-.active{
-  font-weight: bolder;
+/*.active{
+  font-weight: bolder;*/
 }/*something is going wrong here when I push it*/
 
 /*End navigation bar-----------------------------*/
 
 
 /*Main Content------------------------------------------------------------------*/
-body{background-color: rgba(216, 230, 243, .4);}
+body{background-color: rgba(216, 230, 243, .05);}
 
 h3{
   border-bottom: 3px solid  rgba(51, 102, 153, .7);
@@ -111,5 +111,4 @@ h3{
 
 footer{
   background-color:  rgba(51, 102, 153, .75);
-  position: fixed;
 }

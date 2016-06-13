@@ -12,7 +12,6 @@
 .main{padding-top: 3%;}
 .row{padding: 2% 0;}
 .blue{background-color:  rgba(51, 102, 153, .75) ;} /*a is the fourth dimension that sets opacity*/
-.content h2{font-size: 3rem;} /*This overrides the rule skeleton had set for h2*/
 
 /*Header------------------------------------------------------------------------*/
 
@@ -26,7 +25,7 @@ header.main_nav{
 /*Logo is my Name*/
 .logo{
   text-align: center;
-  opacity: .8%;
+  opacity: .8;
   font-family: 'Dancing Script', cursive;
   font-size: 3em;
   line-height: 100%; /*how we got UT closer to EC*/
@@ -72,22 +71,20 @@ header.main_nav{
   color: gray;
 }
 
-/*.active{
-  font-weight: bolder;*/
-}/*something is going wrong here when I push it*/
+.active{
+  font-weight: bold;
+}
 
 /*End navigation bar-----------------------------*/
 
 
 /*Main Content------------------------------------------------------------------*/
-body{background-color: rgba(216, 230, 243, .05);}
+body > .main {background-color: rgba(216, 230, 243, .4);
+    font-family: 'Open Sans';
+}
 
 h3{
   border-bottom: 3px solid  rgba(51, 102, 153, .7);
-}
-
-#font{
-  font-family: 'Open Sans'
 }
 
 #about{
@@ -97,7 +94,6 @@ h3{
 .right{
   text-align: right;
 }
-
 
 /*Footer------------------------------------------------------------------------*/
 .copyright{
